@@ -1,11 +1,21 @@
+
+##################################################################################
+# PROVIDERS
+##################################################################################
+
+provider "aws" {
+  access_key = "${var.aws_access_key}"
+  secret_key = "${var.aws_secret_key}"
+  region     = "${var.aws_region}"
+  assume_role {
+    role_arn  = "arn:aws:iam::${var.aws_trusted_account}:role/${var.aws_role_name}"
+  }
+}
+
 provider "google" {
 	credentials = "${file("../account.json")}"
 	project = "proud-amphora-182121"
 	region = "us-west1"
-}
-
-provider "aws" {
-	region = "us-west-2"
 }
 
 provider "azurerm" {

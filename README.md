@@ -1,7 +1,7 @@
 # terraform-linkinlearning
 LinkedIn Learning Terraform Coursework
 
-## Installing Terraform 
+## Installing Terraform (Windows)
 1. Download executable from the following location: https://www.terraform.io/downloads.html
   	1.  Store zip file and keep zip file (each time) for the purpose of versioning 
 2. Create a location to store the terraform EXE file.

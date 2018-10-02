@@ -13,7 +13,7 @@ LinkedIn Learning Terraform Coursework
 	2. Enter elevated account creds if needed
 	3. Select the **Path** variable in the **System Variables** section
 	4. Click **Edit**
-	5. Add a semicolon and the terraform path: `;C:\Users\sss4196\Terraform`
+	5. Add a semicolon and the terraform path: `;C:\Users\<corpusername>\Terraform`
 	6. Click OK to close all the remaining open dialog
 4. Validate path to Terraform
 	1. Open cmd prompt

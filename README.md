@@ -2,7 +2,6 @@
 LinkedIn Learning Terraform Coursework
 
 ## Installing Terraform 
-Monday October 01, 2018 3:25 PM
 
 1. Download executable from the following location: https://www.terraform.io/downloads.html
 2. Store zip file and keep zip file (each time) for the purpose of versioning 
